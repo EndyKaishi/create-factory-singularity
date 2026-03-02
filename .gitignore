@@ -1,0 +1,67 @@
+# =============================
+# Runtime / Generated Folders
+# =============================
+
+logs/
+crash-reports/
+saves/
+screenshots/
+recordings/
+resourcepacks/
+shaderpacks/
+
+# Server-only
+world/
+server.properties
+whitelist.json
+ops.json
+banned-ips.json
+banned-players.json
+usercache.json
+
+# =============================
+# Client-Specific Files
+# =============================
+
+options.txt
+optionsof.txt
+optionsshaders.txt
+usernamecache.json
+servers.dat
+launcher_profiles.json
+TlauncherProfiles.json
+
+# =============================
+# Mod Jars (Handled by platform)
+# =============================
+
+mods/
+
+# If you ever add custom/private jars,
+# remove the above line and manually ignore specific ones instead.
+
+# =============================
+# Java / Forge Runtime
+# =============================
+
+libraries/
+natives/
+versions/
+runtime/
+instance.json
+
+# =============================
+# OS Junk
+# =============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =============================
+# IDE / Editor
+# =============================
+
+.idea/
+.vscode/
+*.iml
